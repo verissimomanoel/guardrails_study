@@ -1,0 +1,7 @@
+framework,dataset,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,false_negative_mean,false_negative_std,lattency_mean,lattency_std
+llm_guard,do_not_answer_en,7.6677,0.0,50.0,0.0,3.8339,0.0,7.1217,0.0,0.0,0.0,0.0323,0.0003
+llm_guard,toxic_chat,92.7012,0.0,71.7383,0.0,66.3561,0.0,68.5637,0.0,2.7149,0.0,0.0339,0.003
+llama_guard,do_not_answer_en,42.279,0.4405,50.0,0.0,21.1395,0.2203,29.715,0.217,0.0,0.0,0.722,0.0073
+llama_guard,toxic_chat,92.0578,0.1848,70.4648,0.5532,72.4884,0.3689,71.4111,0.4415,4.3577,0.1708,0.5786,0.0019
+moderation,do_not_answer_en,30.3834,0.0514,50.0,0.0,15.1917,0.0257,23.3031,0.0303,0.0,0.0,0.3992,0.0561
+moderation,toxic_chat,92.7484,0.0298,72.2609,0.13,69.2382,0.1269,70.6087,0.1245,3.1084,0.0197,0.4008,0.0345
