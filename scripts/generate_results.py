@@ -12,7 +12,7 @@ def generate_metrics(result_name):
 
         if "toxic_chat" not in result_name:
             y_true = np.zeros(len(df_results), dtype=int)
-            false_negative = 0
+            false_negative = (len(df_results.query("result == 1")) / len(df_results)) * 100
         else:
             y_true = df_results["toxicity"].values
             false_negative = (len(df_results.query("result == 1 and toxicity == 0")) / len(df_results)) * 100
